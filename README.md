@@ -59,10 +59,11 @@ graph = {
  if __name__ == '__main__':
  main()
 ````
-Slip2
-Q1. Write a python program to generate Calendar for the given month and year?. [
-10 Marks]
-Ans:-
+## Slip2
+#### Q1. Write a python program to generate Calendar for the given month and year?. [
+#### 10 Marks]
+#### Ans:-
+````
 import calendar
 def generate_calendar(year, month):
  cal = calendar.monthcalendar(year, month)
@@ -78,9 +79,11 @@ def generate_calendar(year, month):
 year = int(input("Enter the year: "))
 month = int(input("Enter the month (1-12): "))
 generate_calendar(year, month)
-Q.2)Write a Python program to implement Depth First Search algorithm. Refer the
-following graph as an Input for the program. [Initial node=1,Goal node=7].
-Ans:-
+````
+#### Q.2)Write a Python program to implement Depth First Search algorithm. Refer the
+#### following graph as an Input for the program. [Initial node=1,Goal node=7].
+#### Ans:-
+````
 graph = {
  '1': ['2', '3'],
  '2': ['4'],
@@ -107,9 +110,11 @@ graph = {
 
  if __name__ == '__main__':
  main()
-Slip 3
-Q.1) Write a python program to remove punctuations from the given string?
-Ans:-
+````
+## Slip 3
+#### Q.1) Write a python program to remove punctuations from the given string?
+#### Ans:-
+````
 import string
 def remove_punctuation(input_string):
  # Obtain the set of punctuation characters
@@ -122,9 +127,11 @@ input_string = "Hello, World! This is an example string with punctuations!!!"
 result = remove_punctuation(input_string)
 print("Original String:", input_string)
 print("String without Punctuation:", result)
-Q.2) Write a Python program to implement Depth First Search algorithm. Refer the
-following graph as an Input for the program. [Initial node 2, Goal node=7]
-Ans:-
+````
+#### Q.2) Write a Python program to implement Depth First Search algorithm. Refer the
+#### following graph as an Input for the program. [Initial node 2, Goal node=7]
+#### Ans:-
+````
 graph = {
  '1': ['2', '3','4'],
  '2': ['1', '4', '5'],
@@ -152,14 +159,16 @@ graph = {
 
  if __name__ == '__main__':
  main()
-Slip 4
-Q.1)Write a program to implement Hangman game using python.
-Description:
-Hangman is a classic word-guessing game. The user should guess the word
-correctly by entering alphabets of the user choice. The Program will get input as
-single alphabet from the user and it will matchmaking with the alphabets in the
-original
-Ans:-
+````
+## Slip 4
+#### Q.1)Write a program to implement Hangman game using python.
+#### Description:
+#### Hangman is a classic word-guessing game. The user should guess the word
+#### correctly by entering alphabets of the user choice. The Program will get input as
+#### single alphabet from the user and it will matchmaking with the alphabets in the
+#### original
+#### Ans:-
+````
 import random
 def choose_word():
  return random.choice(["python", "hangman", "programming", "code", "computer",
@@ -186,9 +195,11 @@ def hangman():
  print(f"Sorry, you're out of attempts. The word was: {word}")
 if __name__ == "__main__":
  hangman()
-Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
-the following graph as an Input for the program. [Initial node=1,Goal node=8]
-Ans:-
+````
+#### Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
+#### the following graph as an Input for the program. [Initial node=1,Goal node=8]
+#### Ans:-
+````
 from collections import deque
 
  # Define an example graph as an adjacency list
@@ -228,9 +239,11 @@ from collections import deque
 
  if __name__ == '__main__':
  main()
-Slip 5
-Q.1) Write a python program to implement Lemmatization using NLTK
-Ans:-
+````
+## Slip 5
+#### Q.1) Write a python program to implement Lemmatization using NLTk 
+#### Ans:-
+````
 import nltk
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
@@ -254,9 +267,11 @@ input_text = "The cats are running and playing in the garden"
 lemmatized_text = lemmatize_text(input_text)
 print("Original Text:", input_text)
 print("Lemmatized Text:", lemmatized_text)
-Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
-the following graph as an Input for the program. [Initial node=1,Goal node=8]
-Ans:
+````
+#### Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
+#### the following graph as an Input for the program. [Initial node=1,Goal node=8]
+#### Ans:
+````
 from collections import deque
 
  # Define an example graph as an adjacency list
@@ -295,10 +310,12 @@ from collections import deque
 
  if __name__ == '__main__':
  main()
-Slip 6
-Q.1) Write a python program to remove stop words for a given passage from a
-text file using NLTK2.
-Ans:-
+````
+## Slip 6
+#### Q.1) Write a python program to remove stop words for a given passage from a
+#### text file using NLTK2.
+#### Ans:-
+````
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -320,9 +337,11 @@ with open(file_path, 'r') as file:
  print(file.read())
 print("\nPassage after removing stop words:")
 print(result_text)
-Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
-the following graph as an Input for the program. [Initial node=1,Goal node=8]
-Ans:-
+````
+#### Q.2) Write a Python program to implement Breadth First Search algorithm. Refer
+#### the following graph as an Input for the program. [Initial node=1,Goal node=8]
+#### Ans:-
+````
 from collections import deque
 
  # Define an example graph as an adjacency list
@@ -361,10 +380,12 @@ from collections import deque
 
  if __name__ == '__main__':
  main()
-Slip 7
-Q.1)Write a python program implement tic-tac-toe using alpha beeta pruning [10
-Marks]
-Ans:-
+````
+## Slip 7
+#### Q.1)Write a python program implement tic-tac-toe using alpha beeta pruning [10
+#### Marks]
+#### Ans:-
+````
 def print_board(board):
  for row in board:
  print(" | ".join(row))
@@ -414,8 +435,10 @@ range(3)): # Check diagonals
 
  if __name__ == "__main__":
  main()
-Q.2) Write a Python program to implement Simple Chatbot.
-Ans:-
+````
+#### Q.2) Write a Python program to implement Simple Chatbot.
+#### Ans:-
+````
 responses = {
  "hi": "Hello there! How can I help you today?",
  "hello": "Hi! How can I assist you?",
@@ -442,10 +465,12 @@ choose from the predefined inputs. 'hi', 'hello', 'hey', 'how are you', 'bye', '
  break
  response = chatbot(user_input)
  print("Simple Chatbot:", response)
-Slip 8
-Q.1) Write a Python program to accept a string. Find and print the number of
-upper case alphabets and lower case alphabets.
-Ans:-
+````
+## Slip 8
+#### Q.1) Write a Python program to accept a string. Find and print the number of
+#### upper case alphabets and lower case alphabets.
+#### Ans:-
+````
 def count_upper_lower(input_string):
  upper_count = sum(1 for char in input_string if char.isupper())
  lower_count = sum(1 for char in input_string if char.islower())
@@ -455,8 +480,10 @@ user_input = input("Enter a string: ")
 upper, lower = count_upper_lower(user_input)
 print(f"Number of uppercase alphabets: {upper}")
 print(f"Number of lowercase alphabets: {lower}")
-Q.2) Write a Python program to solve tic-tac-toe problem.
-Ans:-
+````
+#### Q.2) Write a Python program to solve tic-tac-toe problem.
+#### Ans:-
+````
 def print_board(board):
  for row in board:
  print(" | ".join(row))
@@ -506,10 +533,12 @@ range(3)): # Check diagonals
 
  if __name__ == "__main__":
  main()
-Slip 9
-Q.1) Write python program to solve 8 puzzle problem using A algorithm [10
-marks]
-Ans:-
+````
+## Slip 9
+#### Q.1) Write python program to solve 8 puzzle problem using A algorithm [10
+#### marks]
+#### Ans:-
+````
 import heapq
 class PuzzleNode:
  def __init__(self, state, parent=None, move=None, cost=0, heuristic=0):
@@ -549,10 +578,12 @@ None, 0, manhattan_distance(initial_state))], set()
 if __name__ == "__main__":
  # Example usage:
  solve_puzzle([1, 2, 3, 4, 5, 6, 0, 7, 8]) # Replace with your initial state
-Q.2) Write a Python program to solve water jug problem. 2 jugs with capacity 5
-gallon and 7 gallon are given with unlimited water supply respectively. The target
-to achieve is 4 gallon of water in second jug.
-Ans:-
+````
+#### Q.2) Write a Python program to solve water jug problem. 2 jugs with capacity 5
+#### gallon and 7 gallon are given with unlimited water supply respectively. The target
+#### to achieve is 4 gallon of water in second jug.
+#### Ans:-
+````
 def water_jug_problem(capacity_x, capacity_y, target):
  jug_x = 0
  jug_y = 0
@@ -591,10 +622,12 @@ def water_jug_problem(capacity_x, capacity_y, target):
 
  if __name__ == '__main__':
  main()
-Slip 10
-Q.1) Write Python program to implement crypt arithmetic problem TWO +
-TWO=FOUR
-Ans:-
+````
+## Slip 10
+#### Q.1) Write Python program to implement crypt arithmetic problem TWO +
+#### TWO=FOUR
+#### Ans:-
+````
 from itertools import permutations
 def is_valid_assignment(mapping, word):
  return int(''.join(mapping[ch] for ch in word))
@@ -615,8 +648,10 @@ is_valid_assignment(mapping, puzzle[1]) == is_valid_assignment(mapping, puzzle[2
  print("No solution found.")
 if __name__ == "__main__":
  solve_cryptarithmetic_puzzle()
-Q.2) Write a Python program to implement Simple Chatbot.
-Ans:-
+````
+#### Q.2) Write a Python program to implement Simple Chatbot.
+#### Ans:-
+````
 responses = {
  "hi": "Hello there! How can I help you today?",
  "hello": "Hi! How can I assist you?",
@@ -643,10 +678,12 @@ choose from the predefined inputs. 'hi', 'hello', 'hey', 'how are you', 'bye', '
  break
  response = chatbot(user_input)
  print("Simple Chatbot:", response)
-Slip 11
-Q.1) Write a python program using mean end analysis algorithmproblem of
-transforming a string of lowercase letters into another string.
-Ans:-
+````
+## Slip 11
+#### Q.1) Write a python program using mean end analysis algorithmproblem of
+#### transforming a string of lowercase letters into another string.
+#### Ans:-
+````
 def mean_end_analysis(initial, target):
  if len(initial) != len(target):
  print("Strings must have the same length.")
@@ -665,10 +702,12 @@ if __name__ == "__main__":
  initial_string = input("Enter the initial string: ").lower()
  target_string = input("Enter the target string: ").lower()
  mean_end_analysis(initial_string, target_string)
-Q.2) Write a Python program to solve water jug problem. Two jugs with capacity 4
-gallon and 3 gallon are given with unlimited water supply respectively. The target
-is to achieve 2 gallon of water in second jug.
-Ans:-
+````
+#### Q.2) Write a Python program to solve water jug problem. Two jugs with capacity 4
+#### gallon and 3 gallon are given with unlimited water supply respectively. The target
+####  to achieve 2 gallon of water in second jug.
+#### Ans:-
+````
 def water_jug_problem(capacity_x, capacity_y, target):
  jug_x = 0
  jug_y = 0
@@ -707,6 +746,7 @@ def water_jug_problem(capacity_x, capacity_y, target):
 
  if __name__ == '__main__':
  main()
+````
 Slip 12
 Q.1) Write a python program to generate Calendar for the given month and year?.
 Ans:-
