@@ -747,9 +747,10 @@ def water_jug_problem(capacity_x, capacity_y, target):
  if __name__ == '__main__':
  main()
 ````
-Slip 12
-Q.1) Write a python program to generate Calendar for the given month and year?.
-Ans:-
+## Slip 12
+#### Q.1) Write a python program to generate Calendar for the given month and year?.
+#### Ans:-
+````
 import calendar
 def generate_calendar(year, month):
  cal = calendar.monthcalendar(year, month)
@@ -765,8 +766,10 @@ def generate_calendar(year, month):
 year = int(input("Enter the year: "))
 month = int(input("Enter the month (1-12): "))
 generate_calendar(year, month)
-Q.2)Write a Python program to simulate 4-Queens problem.
-Ans:-
+````
+#### Q.2)Write a Python program to simulate 4-Queens problem.
+#### Ans:-
+````
 def print_chessboard(chessboard):
  for row in chessboard:
  print(" ".join(row))
@@ -821,9 +824,11 @@ def print_chessboard(chessboard):
 
  if __name__ == '__main__':
  main()
-Slip 13
-Q.1Write a Python program to implement Mini-Max Algorithm.
-Ans:-
+````
+## Slip 13
+#### Q.1Write a Python program to implement Mini-Max Algorithm.
+#### Ans:-
+````
 import math
 def evaluate(board):
  return sum(row.count('X') - row.count('O') for row in board)
@@ -872,8 +877,10 @@ by space): ").split()))
  break
 if __name__ == "__main__":
  play_game()
-Q.2) Write a Python program to simulate 8-Queens problem.
-Ans:-
+````
+#### Q.2) Write a Python program to simulate 8-Queens problem.
+#### Ans:-
+````
 def print_chessboard(chessboard):
  for row in chessboard:
  print(" ".join(row))
@@ -928,9 +935,11 @@ def print_chessboard(chessboard):
 
  if __name__ == '__main__':
  main()
-Slip 14
-Q.1) Write a python program to sort the sentence in alphabetical order?
-Ans:-
+````
+## Slip 14
+#### Q.1) Write a python program to sort the sentence in alphabetical order?
+#### Ans:-
+````
 def sort_sentence(sentence):
  words = sentence.split()
  sorted_words = sorted(words)
@@ -940,8 +949,10 @@ if __name__ == "__main__":
  input_sentence = input("Enter a sentence: ")
  result = sort_sentence(input_sentence)
  print("Sorted Sentence:", result)
-Q.2) Write a Python program to simulate n-Queens problem.
-Ans:-
+````
+#### Q.2) Write a Python program to simulate n-Queens problem.
+#### Ans:-
+````
 def print_chessboard(chessboard):
  for row in chessboard:
  print(" ".join(row))
@@ -996,9 +1007,11 @@ backtrack
 
  if __name__ == '__main__':
  main()
-Slip 15
-Q.1)Write a Program to Implement Monkey Banana Problem using Python
-Ans:-
+````
+## Slip 15
+#### Q.1)Write a Program to Implement Monkey Banana Problem using Python
+#### Ans:-
+````
 import queue
 class State:
  def __init__(self, monkey_row, monkey_col, has_banana):
@@ -1050,9 +1063,11 @@ if __name__ == "__main__":
  start_state = State(monkey_start[0], monkey_start[1], False)
  solution_path = bfs(start_state, banana_location[0], banana_location[1], rows, cols)
  print_solution(solution_path)
-Q.2) Write a program to implement Iterative Deepening DFS algorithm.
-[Goal Node=G]
-Ans:-
+````
+#### Q.2) Write a program to implement Iterative Deepening DFS algorithm.
+#### [Goal Node=G]
+#### Ans:-
+````
 class Node:
  def __init__(self, state, children=None):
  self.state = state
@@ -1085,9 +1100,11 @@ Node("F", [Node("H", [Node("I")])])])])
  print("Solution Path:", " -> ".join(solution_path))
  else:
  print("No solution found.")
-Slip 16
-Q.1) Write a Program to Implement Tower of Hanoi using Python
-Ans:-
+````
+## Slip 16
+#### Q.1) Write a Program to Implement Tower of Hanoi using Python
+#### Ans:-
+````
 def tower_of_hanoi(n, source_peg, target_peg, auxiliary_peg):
  if n == 1:
  print(f"Move disk 1 from {source_peg} to {target_peg}")
@@ -1098,8 +1115,10 @@ def tower_of_hanoi(n, source_peg, target_peg, auxiliary_peg):
 if __name__ == "__main__":
  number_of_disks = int(input("Enter the number of disks: "))
  tower_of_hanoi(number_of_disks, 'A', 'C', 'B')
-Q.2) Write a Python program to solve tic-tac-toe problem.
-Ans:-
+````
+#### Q.2) Write a Python program to solve tic-tac-toe problem.
+#### Ans:-
+````
 def print_board(board):
  for row in board:
  print(" | ".join(row))
@@ -1149,10 +1168,12 @@ range(3)): # Check diagonals
 
  if __name__ == "__main__":
  main()
-Slip 17
-Q.1) Python program that demonstrates the hill climbing algorithm to find the
-maximum of a mathematical function.
-Ans:-
+````
+## Slip 17
+#### Q.1) Python program that demonstrates the hill climbing algorithm to find the
+#### maximum of a mathematical function.
+#### Ans:-
+````
 def hill_climbing(function, initial_guess, step_size, max_iterations):
  current_solution = initial_guess
  current_value = function(current_solution)
@@ -1177,9 +1198,11 @@ if __name__ == "__main__":
 step_size, max_iterations)
  print(f"Maximum Solution: {result_solution}")
  print(f"Maximum Value: {result_value}")
-Q.2) Write a Python program to implement A* algorithm. Refer the following graph
-as an Input for the program. Start vertex is A and Goal Vertex is G]
-Ans:-
+````
+#### Q.2) Write a Python program to implement A* algorithm. Refer the following graph
+#### as an Input for the program. Start vertex is A and Goal Vertex is G]
+#### Ans:-
+````
 import heapq
 # Graph represented as an adjacency list
 graph = {
@@ -1223,10 +1246,12 @@ if __name__ == "__main__":
  print(f"Cost from {start_vertex} to {goal_vertex} using A* algorithm: {result_cost}")
  else:
  print(f"No path found from {start_vertex} to {goal_vertex}.")
-Slip 18
-Q.1). Write a python program to remove stop words for a given passage from a
-text file using NLTK?.
-Ans:-
+````
+## Slip 18
+#### Q.1). Write a python program to remove stop words for a given passage from a
+#### text file using NLTK?.
+#### Ans:-
+````
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -1251,12 +1276,14 @@ if __name__ == "__main__":
  print(f"File not found at path: {file_path}")
  except Exception as e:
  print(f"An error occurred: {e}")
-Q.2) Implement a system that performs arrangement of some set of objects in a
-room. Assume that you have only 5 rectangular, 4 square-shaped objects. Use A
-approach for the placement of the objects in room for efficient space utilisation.
-Assume suitable heuristic, and dimensions of objects and rooms. (Informed
-Search)
-Ans:-
+````
+#### Q.2) Implement a system that performs arrangement of some set of objects in a
+#### room. Assume that you have only 5 rectangular, 4 square-shaped objects. Use A
+#### approach for the placement of the objects in room for efficient space utilisation.
+#### Assume suitable heuristic, and dimensions of objects and rooms. (Informed
+#### Search)
+#### Ans:-
+````
 import heapq
 class State:
  def __init__(self, room_width, room_height, remaining_objects, current_state=None):
@@ -1305,13 +1332,15 @@ if __name__ == "__main__":
  print("Total wasted space:", result_state.total_wasted_space)
  else:
  print("No solution found.")
-Slip 19
-Q.1) Write a program to implement Hangman game using python. Hangman is a
-classic word-guessing game. The user should guess the word correctly by
-entering alphabets of the user choice. The Program will get input as single
-alphabet from the user and it will matchmaking with the alphabets in the original
-word.
-Ans:-
+````
+## Slip 19
+#### Q.1) Write a program to implement Hangman game using python. Hangman is a
+#### classic word-guessing game. The user should guess the word correctly by
+#### entering alphabets of the user choice. The Program will get input as single
+#### alphabet from the user and it will matchmaking with the alphabets in the original
+#### word.
+#### Ans:-
+````
 import random
 def choose_word():
  words = ["python", "hangman", "programming", "developer", "computer"]
@@ -1346,9 +1375,11 @@ def hangman():
  print(f"Sorry, you've run out of attempts. The word was: {word_to_guess}")
 if __name__ == "__main__":
  hangman()
-Q.2) Write a Python program to implement A* algorithm. Refer the following graph
-as an Input for the program.
-Ans:-
+````
+#### Q.2) Write a Python program to implement A* algorithm. Refer the following graph
+#### as an Input for the program.
+#### Ans:-
+````
 import heapq
 # Graph represented as an adjacency list
 graph = {
@@ -1390,9 +1421,11 @@ if __name__ == "__main__":
  print(f"Cost from {start_vertex} to {goal_vertex} using A* algorithm: {result_cost}")
  else:
  print(f"No path found from {start_vertex} to {goal_vertex}.")
-Slip 20
-Q.1) Build a bot which provides all the information related to you in college
-Ans:-
+````
+## Slip 20
+#### Q.1) Build a bot which provides all the information related to you in college
+#### Ans:-
+````
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 # Replace these with your own information
@@ -1418,8 +1451,10 @@ def college_bot():
  return jsonify({'error': 'Action not provided'})
 if __name__ == '__main__':
  app.run(debug=True)
-Q.2) Write a Python program to implement Mini-Max Algorithm.
-Ans:-
+````
+#### Q.2) Write a Python program to implement Mini-Max Algorithm.
+#### Ans:-
+````
 import math
 def mini_max(board, depth, is_maximizing_player):
  if check_winner(board):
@@ -1463,9 +1498,11 @@ if __name__ == "__main__":
  best_value = move_value
  best_move = move
  print(f"The best move is {best_move} with a value of {best_value}")
-Slip 21
-Q.1)Write a python program to remove punctuations from the given string?
-Ans:-
+````
+## Slip 21
+#### Q.1)Write a python program to remove punctuations from the given string?
+#### Ans:-
+````
 import string
 def remove_punctuation(input_string):
  return ''.join(char for char in input_string if char not in string.punctuation)
@@ -1474,9 +1511,11 @@ if __name__ == "__main__":
  result = remove_punctuation(input_string)
  print("Original String:", input_string)
  print("String without Punctuation:", result)
-Q.2) Write a Python program for the following Cryptarithmetic problems. GO + TO
-= OUT
-Ans:-
+````
+#### Q.2) Write a Python program for the following Cryptarithmetic problems. GO + TO
+#### = OUT
+#### Ans:-
+````
 from itertools import permutations
 def is_solution(mapping):
  go = mapping['G'] * 10 + mapping['O']
@@ -1504,9 +1543,11 @@ if __name__ == "__main__":
  print(f" OUT")
  else:
  print("No solution found.")
-Slip 22
-Q.1) Write a Program to Implement Alpha-Beta Pruning using Python
-Ans:-
+````
+## Slip 22
+#### Q.1) Write a Program to Implement Alpha-Beta Pruning using Python
+#### Ans:-
+````
 import math
 def alpha_beta_pruning(board, depth, alpha, beta, is_maximizing_player):
  if depth == 0 or game_over(board):
@@ -1558,8 +1599,10 @@ False)
  best_value = move_value
  best_move = move
  print(f"The best move is {best_move} with a value of {best_value}")
-Q.2) Write a Python program to implement Simple Chatbot
-Ans:-
+````
+#### Q.2) Write a Python program to implement Simple Chatbot
+#### Ans:-
+````
 responses = {
  "hi": "Hello there! How can I help you today?",
  "hello": "Hi! How can I assist you?",
@@ -1586,9 +1629,11 @@ choose from the predefined inputs. 'hi', 'hello', 'hey', 'how are you', 'bye', '
  break
  response = chatbot(user_input)
  print("Simple Chatbot:", response)
-Slip 23
-Q.1) Write a Program to Implement Tower of Hanoi using Python.
-Ans:-
+````
+## Slip 23
+#### Q.1) Write a Program to Implement Tower of Hanoi using Python.
+#### Ans:-
+````
 def tower_of_hanoi(n, source, target, auxiliary):
  if n == 1:
  print(f"Move disk 1 from {source} to {target}")
@@ -1599,9 +1644,11 @@ def tower_of_hanoi(n, source, target, auxiliary):
 if __name__ == "__main__":
  num_discs = int(input("Enter the number of discs: "))
  tower_of_hanoi(num_discs, 'A', 'C', 'B')
-Q.2) Write a Python program for the following Cryptarithmetic problems SEND +
-MORE = MONEY
-Ans:-
+````
+#### Q.2) Write a Python program for the following Cryptarithmetic problems SEND +
+#### MORE = MONEY
+#### Ans:-
+````
 from itertools import permutations
 def is_solution(mapping):
  send = mapping['S'] * 1000 + mapping['E'] * 100 + mapping['N'] * 10 + mapping['D']
@@ -1633,9 +1680,11 @@ if __name__ == "__main__":
  print(f" MONEY")
  else:
  print("No solution found.")
-Slip 24
-Q.1)Write a python program to sort the sentence in alphabetical order?
-Ans:-
+````
+## Slip 24
+#### Q.1)Write a python program to sort the sentence in alphabetical order?
+#### Ans:-
+````
 def sort_sentence(sentence):
  words = sentence.split()
  sorted_words = sorted(words)
@@ -1646,9 +1695,11 @@ if __name__ == "__main__":
  sorted_sentence = sort_sentence(input_sentence)
  print("Original Sentence:", input_sentence)
  print("Sorted Sentence:", sorted_sentence)
-Q.2) Write a Python program for the following Crypt arithmetic problems
-CROSS+ROADS = DANGER
-Ans:-
+````
+#### Q.2) Write a Python program for the following Crypt arithmetic problems
+#### CROSS+ROADS = DANGER
+#### Ans:-
+````
 from itertools import permutations
 def is_solution(mapping):
  cross = mapping['C'] * 10000 + mapping['R'] * 1000 + mapping['O'] * 100 +
@@ -1684,9 +1735,11 @@ if __name__ == "__main__":
  print(f" DANGER")
  else:
  print("No solution found.")
-Slip 25
-Q.1). Build a bot which provides all the information related to you in college
-Ans:-
+````
+## Slip 25
+#### Q.1). Build a bot which provides all the information related to you in college
+#### Ans:-
+````
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 college_info = {
@@ -1715,8 +1768,10 @@ def college_chatbot():
  return jsonify({'error': 'Query not provided'})
 if __name__ == '__main__':
  app.run(debug=True)
-Q.2) Write a Python program to solve 8-puzzle problem.
-Ans:-
+````
+#### Q.2) Write a Python program to solve 8-puzzle problem.
+#### Ans:-
+````
 def print_chessboard(chessboard):
  for row in chessboard:
  print(" ".join(row))
@@ -1771,3 +1826,4 @@ def print_chessboard(chessboard):
 
  if __name__ == '__main__':
  main()
+````
